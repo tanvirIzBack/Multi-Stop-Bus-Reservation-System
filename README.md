@@ -23,9 +23,11 @@ A C-based bus ticket reservation system built for a Data Structures lab final pr
 | Linked list (queue) | Waiting list (`front`/`rear`) | Strict first-come, first-served ordering |
 | Interval overlap check | `isSeatFreeForSegment()` | Decides whether a seat can be shared between two segments |
 
+
 ## Diagram
 
-<img width="1536" height="1024" alt="ChatGPT Image Aug 11, 2026, 11_29_46 PM" src="https://github.com/user-attachments/assets/d528405a-e9f5-430c-98b8-3d37fe7711b1" />
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/d528405a-e9f5-430c-98b8-3d37fe7711b1" />
+
 
 ## Build & Run
 
