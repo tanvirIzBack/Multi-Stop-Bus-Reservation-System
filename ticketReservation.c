@@ -170,7 +170,7 @@ void cancelSeat() {
         return;
     }
     printf("Booking for %s (%s -> %s) on Seat %d cancelled.\n", name, stopNames[freedStart], stopNames[freedEnd], seatNo);
-    struct QNode *ptr;
+    struct QNode *ptr=NULL;
     while(ptr!=NULL){
         ptr=ptr->next;
         if(front != NULL && isSeatFreeForSegment(seatIndex, front->start, front->end)){
