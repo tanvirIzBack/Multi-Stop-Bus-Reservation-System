@@ -18,7 +18,7 @@ A C-based bus ticket reservation system built for a Data Structures lab final pr
 
 | Structure | Where | Why |
 |---|---|---|
-| Array | `seats[]` | Fixed number of seats — O(1) direct access by seat number |
+| Array | `seats[]` | Fixed number of seats -> O(1) direct access by seat number |
 | Linked list | Per-seat `Booking` list | Each seat can hold a variable number of segment bookings |
 | Linked list (queue) | Waiting list (`front`/`rear`) | Strict first-come, first-served ordering |
 | Interval overlap check | `isSeatFreeForSegment()` | Decides whether a seat can be shared between two segments |
