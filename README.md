@@ -35,12 +35,33 @@ gcc -o bus_reservation src/bus_reservation.c
 ## Project Structure
 
 ```
-bus-reservation-system/
-├── src/
-│   └── bus_reservation.c   # main source code
-├── docs/
-│   └── bus_reservation_report_short.docx   # lab report
-└── README.md
+MAIN MENU
+    │
+    ├── 1. bookSeat()
+    │       ├── printStops()
+    │       ├── isSeatFreeForSegment()
+    │       │       └── segmentsOverlap()
+    │       ├── addBooking()
+    │       └── enqueueWait()
+    │
+    ├── 2. cancelSeat()
+    │       ├── removeBookingByName()
+    │       ├── isSeatFreeForSegment()
+    │       │       └── segmentsOverlap()
+    │       ├── dequeueWait()
+    │       └── addBooking()
+    │
+    ├── 3. checkSeat()
+    │       └── [reads Booking linked list]
+    │
+    ├── 4. waitingList()
+    │       └── [reads Waiting Queue]
+    │
+    ├── 5. printStops()
+    │       └── [reads stopNames[]]
+    │
+    └── 6. Exit
+            └── Program terminates
 ```
 
 ## Report
