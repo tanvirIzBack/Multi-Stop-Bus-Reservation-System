@@ -72,4 +72,4 @@ MAIN MENU
 
 ## Report
 
-See `docs/` for the lab report covering the problem statement, benefits, and data structure reasoning.
+See `Lab Final Report.pdf` for the lab report covering the problem statement, benefits, and data structure reasoning.
