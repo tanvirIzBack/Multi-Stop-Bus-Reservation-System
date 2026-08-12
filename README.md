@@ -1,4 +1,4 @@
-# Bus Ticket Reservation System
+# Multi-Stop Bus Reservation System
 
 A C-based bus ticket reservation system built for a Data Structures lab final project. Unlike a conventional booking system where a seat is locked for an entire trip, this system tracks bookings **per route segment**, allowing a single physical seat to be shared by multiple passengers travelling different, non-overlapping parts of the same journey.
 
